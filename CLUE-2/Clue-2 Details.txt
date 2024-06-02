@@ -1,0 +1,24 @@
+It sounds crazy, but Bruno's getting a bit paranoid and wants to cover every possible avenue to figure out who did this.
+
+Keiko employees and their family travel for free with the Movr platform and since Keiko is located in the heart of Downtown New York, he's thinking they may have used the platform to get around.
+
+With what we know now, we should be able to deduce some information from the Movr database. Let's try to figure out what vehicles were at the location of Keiko Corp, and let's not forget our very first clue!
+
+
+
+- Date of incident: 2020-06-23
+
+- Keiko Corp Longitude: -74.997 to -74.9968
+
+- Keiko Corp Latitude: 40.5 to 40.6
+
+
+
+1. With this information we should be able to figure out which Movr rides happened that day around the office!
+Try to sift through the database and figure out what table we need to query and what our query would be!
+
+
+2. Once you figure out what rides occurred around the office that day, Bruno asks you to find the vehicle and owner info linked to those rides. Make sure you don't have duplicates! (see image below for expected columns)
+
+
+Now that we know which vehicles were linked to those rides we use their current location to go and interrogate them for more information!

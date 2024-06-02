@@ -1,0 +1,23 @@
+Clues at different stages are described below:
+It's time to setup your environment for the great theft of Keiko Corp! Given we're SQL masters at this point it's time to put on our Sherlock Holmes hat and try to sniff out who did it!
+We have two solid clues so far:
+
+- It was an inside job
+- It was done on 2023-06-23
+
+With the assumption that it could be an inside job, Keiko Corp has given us full access to their Employee database and their number 1 product: Movr the ride-sharing platform that has taken the globe by storm!  Bruno's hoping that by sifting through all of the data we may uncover some connection with the breach!
+For this part you'll need 2 databases:
+
+1. Movr_Employees: This database contains all relevant information about the Employees of Keiko Corp.
+2. Movr: A ride-sharing product that Keiko offers to consumers.
+
+
+You can find the files for the Movr and Movr_Employees database in the resources section.
+To restore the Movr backup make sure to do the following steps in order!
+Create a database named Movr
+Restore the schema.sql first to the Movr database
+Restore the data.sql next
+To restore the Movr_Employees backup make sure to do the following steps in order!
+Create a database named Movr_Employees
+Restore the movr_employees.sql
+

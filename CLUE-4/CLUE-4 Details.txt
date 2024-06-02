@@ -1,0 +1,12 @@
+Oh boy, this is turning into a doozy of a mystery. Bruno was right all along!
+
+For this part of the mystery, we're going to have to do something special. We're going to have to cross-reference data between 2 separate databases. That's crazy! How do we do that?
+
+
+
+Not to worry, it's simpler than it sounds.  we need to add a new extension to our database and so we need to install it!
+
+create extension dblink; -- run this to run queries across databases
+
+**NOTE**
+--> Make sure you are in the Same database while installing the extension, because extensions vary from database to database 
